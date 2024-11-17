@@ -1,0 +1,55 @@
+body.xbox-bg {
+    background-color: #000000; /* Xbox black */
+    color: #FFFFFF; /* White text for contrast */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+
+.xbox-logo {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.xbox-card {
+    background-color: #107C10; /* Xbox green */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn.xbox-green {
+    background-color: #107C10;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn.xbox-green:hover {
+    background-color: #0C5A0D; /* Darker green on hover */
+}
+
+
+.input-field input {
+    border-bottom: 1px solid #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+.input-field label {
+    color: #FFFFFF !important;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid #50AB80 !important; /* Lighter green for focus */
+    box-shadow: 0 1px 0 0 #50AB80 !important;
+}
+
+
+a.white-text {
+    color: #FFFFFF !important;
+    text-decoration: underline;
+}
+
+a.white-text:hover {
+    color: #50AB80 !important; /* Lighter green hover */
+}
+
